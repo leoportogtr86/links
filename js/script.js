@@ -2,6 +2,24 @@ let btn1 = document.getElementById('btn1')
 let btn2 = document.getElementById('btn2')
 let btn3 = document.getElementById('btn3')
 let btn4 = document.getElementById('btn4')
+let body = document.body
+let now = new Date()
+
+
+
+
+
+console.log(now.getHours())
+
+
+if (now.getHours() > 18) {
+
+    body.style.backgroundColor = '#222'
+
+
+
+}
+
 
 
 btn1.onclick = function () {
