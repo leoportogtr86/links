@@ -3,6 +3,7 @@ let btn2 = document.getElementById('btn2')
 let btn3 = document.getElementById('btn3')
 let btn4 = document.getElementById('btn4')
 let btn5 = document.getElementById('btn5')
+let btn0 = document.getElementById('btn0')
 let body = document.body
 let now = new Date()
 
@@ -53,9 +54,15 @@ btn4.onclick = function () {
 
 }
 
-
+//https://wa.me/5583999379343/text=Ol%C3%A1
 btn5.onclick = function () {
 
     window.location = 'https://leoportogtr86.github.io/escala-maior/'
+
+}
+
+btn0.onclick = function () {
+
+    window.location = 'https://wa.me/5583999379343/text=Ol%C3%A1'
 
 }
