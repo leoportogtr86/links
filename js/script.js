@@ -2,6 +2,7 @@ let btn1 = document.getElementById('btn1')
 let btn2 = document.getElementById('btn2')
 let btn3 = document.getElementById('btn3')
 let btn4 = document.getElementById('btn4')
+let btn5 = document.getElementById('btn5')
 let body = document.body
 let now = new Date()
 
@@ -49,5 +50,12 @@ btn3.onclick = function () {
 btn4.onclick = function () {
 
     window.location = 'https://5faac89435e77c2b77b92133--competent-goldstine-d3c999.netlify.app/'
+
+}
+
+
+btn5.onclick = function () {
+
+    window.location = 'https://leoportogtr86.github.io/escala-maior/'
 
 }
