@@ -14,7 +14,7 @@ let now = new Date()
 console.log(now.getHours())
 
 
-if ((now.getHours() > 0 && now.getHours() <= 6) && (now.getHours() >= 18 && now.getHours() <= 23)) {
+if ((now.getHours() > 0 && now.getHours() <= 6) || (now.getHours() >= 18 && now.getHours() <= 23)) {
 
     body.style.backgroundColor = '#222'
 
