@@ -57,7 +57,7 @@ btn4.onclick = function () {
 //https://wa.me/5583999379343/text=Ol%C3%A1
 btn5.onclick = function () {
 
-    window.location = 'https://leoportogtr86.github.io/escala-maior/'
+    window.location = 'https://leoportogtr86.github.io/dicionario-de-escalas/'
 
 }
 
