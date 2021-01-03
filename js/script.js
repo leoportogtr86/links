@@ -4,6 +4,8 @@ let btn3 = document.getElementById('btn3')
 let btn4 = document.getElementById('btn4')
 let btn5 = document.getElementById('btn5')
 let btn6 = document.getElementById('btn6')
+let btn7 = document.getElementById('btn7')
+
 let btn0 = document.getElementById('btn0')
 let body = document.body
 let now = new Date()
@@ -72,5 +74,12 @@ btn0.onclick = function () {
 btn6.onclick = function () {
 
     window.location = 'https://leoportogtr86.github.io/quiz-escalas/'
+
+}
+
+
+btn7.onclick = function () {
+
+    window.location = 'https://leoportogtr86.github.io/quiz-percepcao/'
 
 }
